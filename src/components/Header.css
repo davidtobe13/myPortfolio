@@ -1,0 +1,18 @@
+.text-glow:hover {
+    text-shadow: 0 0 20px rgb(0, 225, 255) !important;
+    font-weight: 600;
+    font-size: 17px;
+  }
+.button-glow:hover {
+    box-shadow: 0 0 22px rgba(0, 225, 255, 1) !important;
+    font-weight: 600;
+    font-size: 17px;
+  }
+.button-glow:hover {
+    text-shadow: 0 0 20px rgba(0, 225, 255, 1) !important;
+
+  }
+
+.text-glow:focus {
+    text-shadow: 0 0 16px rgba(0, 225, 255, 1) !important;
+  }
