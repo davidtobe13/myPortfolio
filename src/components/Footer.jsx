@@ -73,7 +73,7 @@ const Footer = () => {
         <a href="https://wa.me/2347081101605" target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition">
           <FaWhatsapp />
         </a>
-        <a href="tel:2347075273063" className="hover:text-[#4ee0fd] transition">
+        <a href="tel:+2347075273063" className="hover:text-[#4ee0fd] transition">
           <FaPhone />
         </a>
         <a href="mailto:davidtobe1999@gmail.com" className="hover:text-[#4ee0fd] transition">
