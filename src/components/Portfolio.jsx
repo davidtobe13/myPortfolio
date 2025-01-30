@@ -180,12 +180,12 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const projects = [
-  { id: 1, title: "Project One", description: "This is a brief description of project one.", image: "/first.jpeg", link: "/project-one" },
-  { id: 2, title: "Project Two", description: "This is a brief description of project two.", image: "/second.jpeg", link: "/project-two" },
-  { id: 3, title: "Project Three", description: "This is a brief description of project three.", image: "/third.jpeg", link: "/project-three" },
-  { id: 4, title: "Project Four", description: "This is a brief description of project four.", image: "/first.jpeg", link: "/project-four" },
-  { id: 5, title: "Project Five", description: "This is a brief description of project five.", image: "/second.jpeg", link: "/project-five" },
-  { id: 6, title: "Project Six", description: "This is a brief description of project six.", image: "/third.jpeg", link: "/project-six" },
+  { id: 1, title: "Clubbera", description: "Ready to break free from the virtual world and make some real-life connections? Clubbera is here to help you do just that! This platform is all about bringing people together through shared interests and unforgettable experiences.", image: "/clubbera.jpg", link: "https://clubbera.com/" },
+  { id: 2, title: "Furniro", description: "Funiro is more than just an online store for furnitures. They are passionate about bringing you handcrafted furniture and decor that are both functional and beautiful", image: "/furniro.jpg", link: "https://furniro-iota-eight.vercel.app/" },
+  { id: 3, title: "Scupay", description: "A payment management solution for schools. Scupay is a payment solution designed to streamline payment management for educational institutions", image: "/scupay.jpg", link: "https://scupay-new.vercel.app/" },
+  { id: 4, title: "Portfolio", description: "This is a simple yet modern and beautiful portfolio built for a cinematographer and photograther", image: "/esther.jpg", link: "https://estheramahero.netlify.app/" },
+  { id: 5, title: "Tugro Cargo Group", description: "This is a representative logistics operator providing full range of service in the sphere of customs clearance and transport worldwide for any type of cargo.", image: "/cargo.jpg", link: "https://tugrocargo.online/" },
+  { id: 6, title: "Pinnacle Homes & Autos", description: "This is more than just an online marketplace. They bring you a premium selection of high-quality vehicles and beautiful homes that reflect both style and reliability", image: "/pinnacle.jpg", link: "https://pinnacle-red.vercel.app/" },
 ];
 
 const Portfolio = () => {
@@ -244,10 +244,10 @@ const Portfolio = () => {
           >
             {projects.map((project) => (
               <SwiperSlide key={project.id}>
-                <a href={project.link} className="block p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform">
+                <a href={project.link} className="block p-4 rounded-2xl hover:scale-105 transition-transform">
                   <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-xl" />
                   <h3 className="mt-4 text-lg font-bold text-[#4ee0fd]">{project.title}</h3>
-                  <p className="text-sm text-white">{project.description}</p>
+                  <p className="text-[12px] text-white">{project.description}</p>
                 </a>
               </SwiperSlide>
             ))}

@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
       <div 
         className='w-[45%] h-[100%] hidden md:flex bg-cover bg-no-repeat bg-center'   
-        style={{ backgroundImage: "url('/david.png')" }}
+        style={{ backgroundImage: "url('/hero.png')" }}
       >
       </div>
     </div>
