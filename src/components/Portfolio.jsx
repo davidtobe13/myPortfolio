@@ -184,8 +184,8 @@ const projects = [
   { id: 2, title: "Furniro", description: "Funiro is more than just an online store for furnitures. They are passionate about bringing you handcrafted furniture and decor that are both functional and beautiful", image: "/furniro.jpg", link: "https://furniro-iota-eight.vercel.app/" },
   { id: 3, title: "Scupay", description: "A payment management solution for schools. Scupay is a payment solution designed to streamline payment management for educational institutions", image: "/scupay.jpg", link: "https://scupay-new.vercel.app/" },
   { id: 4, title: "Portfolio", description: "This is a simple yet modern and beautiful portfolio built for a cinematographer and photograther", image: "/esther.jpg", link: "https://estheramahero.netlify.app/" },
-  { id: 5, title: "Tugro Cargo Group", description: "This is a representative logistics operator providing full range of service in the sphere of customs clearance and transport worldwide for any type of cargo.", image: "/cargo.jpg", link: "https://tugrocargo.online/" },
-  { id: 6, title: "Pinnacle Homes & Autos", description: "This is more than just an online marketplace. They bring you a premium selection of high-quality vehicles and beautiful homes that reflect both style and reliability", image: "/pinnacle.jpg", link: "https://pinnacle-red.vercel.app/" },
+  // { id: 5, title: "Tugro Cargo Group", description: "This is a representative logistics operator providing full range of service in the sphere of customs clearance and transport worldwide for any type of cargo.", image: "/cargo.jpg", link: "https://tugrocargo.online/" },
+  { id: 5, title: "Pinnacle Homes & Autos", description: "This is more than just an online marketplace. They bring you a premium selection of high-quality vehicles and beautiful homes that reflect both style and reliability", image: "/pinnacle.jpg", link: "https://pinnacle-red.vercel.app/" },
 ];
 
 const Portfolio = () => {
