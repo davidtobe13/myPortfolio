@@ -181,11 +181,12 @@ import "swiper/css";
 
 const projects = [
   { id: 1, title: "Clubbera", description: "Ready to break free from the virtual world and make some real-life connections? Clubbera is here to help you do just that! This platform is all about bringing people together through shared interests and unforgettable experiences.", image: "/clubbera.jpg", link: "https://clubbera.com/" },
-  { id: 2, title: "Furniro", description: "Funiro is more than just an online store for furnitures. They are passionate about bringing you handcrafted furniture and decor that are both functional and beautiful", image: "/furniro.jpg", link: "https://furniro-iota-eight.vercel.app/" },
-  { id: 3, title: "Scupay", description: "A payment management solution for schools. Scupay is a payment solution designed to streamline payment management for educational institutions", image: "/scupay.jpg", link: "https://scupay-new.vercel.app/" },
-  { id: 4, title: "Portfolio", description: "This is a simple yet modern and beautiful portfolio built for a cinematographer and photograther", image: "/esther.jpg", link: "https://estheramahero.netlify.app/" },
-  { id: 5, title: "Tugro Cargo Group", description: "This is a representative logistics operator providing full range of service in the sphere of customs clearance and transport worldwide for any type of cargo.", image: "/cargo.jpg", link: "https://tugrocargo.online/" },
-  { id: 6, title: "Pinnacle Homes & Autos", description: "This is more than just an online marketplace. They bring you a premium selection of high-quality vehicles and beautiful homes that reflect both style and reliability", image: "/pinnacle.jpg", link: "https://pinnacle-red.vercel.app/" },
+  { id: 2, title: "Lagos Diocese Youth", description: "This is a website desined for the Anglican Communion Diocese of Lagos youth. It is a work in progress and it has 2025 camp registration link that is still in progress.", image: "/anglican.jpg", link: "https://www.dioceseoflagosyouths.com/" },
+  { id: 3, title: "Furniro", description: "Funiro is more than just an online store for furnitures. They are passionate about bringing you handcrafted furniture and decor that are both functional and beautiful", image: "/furniro.jpg", link: "https://furniro-iota-eight.vercel.app/" },
+  { id: 4, title: "Scupay", description: "A payment management solution for schools. Scupay is a payment solution designed to streamline payment management for educational institutions", image: "/scupay.jpg", link: "https://scupay-new.vercel.app/" },
+  { id: 5, title: "Portfolio", description: "This is a simple yet modern and beautiful portfolio built for a cinematographer and photograther", image: "/esther.jpg", link: "https://estheramahero.netlify.app/" },
+  { id: 6, title: "Tugro Cargo Group", description: "This is a representative logistics operator providing full range of service in the sphere of customs clearance and transport worldwide for any type of cargo.", image: "/cargo.jpg", link: "https://tugrocargo.online/" },
+  { id: 7, title: "Pinnacle Homes & Autos", description: "This is more than just an online marketplace. They bring you a premium selection of high-quality vehicles and beautiful homes that reflect both style and reliability", image: "/pinnacle.jpg", link: "https://pinnacle-red.vercel.app/" },
 ];
 
 const Portfolio = () => {
