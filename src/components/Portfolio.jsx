@@ -185,8 +185,10 @@ const projects = [
   { id: 3, title: "Furniro", description: "Funiro is more than just an online store for furnitures. They are passionate about bringing you handcrafted furniture and decor that are both functional and beautiful", image: "/furniro.jpg", link: "https://furniro-iota-eight.vercel.app/" },
   { id: 4, title: "Scupay", description: "A payment management solution for schools. Scupay is a payment solution designed to streamline payment management for educational institutions", image: "/scupay.jpg", link: "https://scupay-new.vercel.app/" },
   { id: 5, title: "Portfolio", description: "This is a simple yet modern and beautiful portfolio built for a cinematographer and photograther", image: "/esther.jpg", link: "https://estheramahero.netlify.app/" },
-  { id: 6, title: "Tugro Cargo Group", description: "This is a representative logistics operator providing full range of service in the sphere of customs clearance and transport worldwide for any type of cargo.", image: "/cargo.jpg", link: "https://tugrocargo.online/" },
-  { id: 7, title: "Pinnacle Homes & Autos", description: "This is more than just an online marketplace. They bring you a premium selection of high-quality vehicles and beautiful homes that reflect both style and reliability", image: "/pinnacle.jpg", link: "https://pinnacle-red.vercel.app/" },
+  { id: 6, title: "Geodex", description: "Geodex is a web application that connects brands to outdoor advertising through innovative tech, data scientists, marketers, and media experts.", image: "/geodex.jpg", link: "https://geodex.tech/" },
+  { id: 7, title: "Shopify Replica", description: "This is a simple yet modern and beautiful replica of the Shopify app. (e-commerce)", image: "/shopify.jpg", link: "https://shofy-beauty-and-cosmetics-ecommerce-client-eight.vercel.app/" },
+  { id: 8, title: "Tugro Cargo Group", description: "This is a representative logistics operator providing full range of service in the sphere of customs clearance and transport worldwide for any type of cargo.", image: "/cargo.jpg", link: "https://tugrocargo.online/" },
+  { id: 9, title: "Pinnacle Homes & Autos", description: "This is more than just an online marketplace. They bring you a premium selection of high-quality vehicles and beautiful homes that reflect both style and reliability", image: "/pinnacle.jpg", link: "https://pinnacle-red.vercel.app/" },
 ];
 
 const Portfolio = () => {
@@ -245,7 +247,7 @@ const Portfolio = () => {
           >
             {projects.map((project) => (
               <SwiperSlide key={project.id}>
-                <a href={project.link} className="block p-4 rounded-2xl hover:scale-105 transition-transform">
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="block p-4 rounded-2xl hover:scale-105 transition-transform">
                   <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-xl" />
                   <h3 className="mt-4 text-lg font-bold text-[#4ee0fd]">{project.title}</h3>
                   <p className="text-[12px] text-white">{project.description}</p>
