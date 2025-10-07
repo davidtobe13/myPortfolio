@@ -145,7 +145,7 @@
 //     <div className="relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden">
 //       {/* Background effects */}
 //       <div className="absolute top-0 right-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-//       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+//       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
 //       <div className='relative z-10 w-full max-w-7xl mx-auto'>
 //         {/* Header */}
@@ -154,7 +154,7 @@
 //             My work
 //           </span>
 //           <h2 className='text-4xl md:text-6xl text-white font-bold mb-4'>
-//             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Portfolio</span>
+//             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Portfolio</span>
 //           </h2>
 //           <p className='text-gray-400 text-lg max-w-2xl'>
 //             See some of my projects and works
@@ -204,7 +204,7 @@
 
 //                   {/* Content */}
 //                   <div className="relative p-6 bg-gradient-to-br from-gray-900 to-gray-800">
-//                     <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-3">
+//                     <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 mb-3">
 //                       {project.title}
 //                     </h3>
 //                     <p className="text-gray-400 text-sm mb-4 line-clamp-3">
@@ -216,7 +216,7 @@
 //                       href={project.link} 
 //                       target="_blank" 
 //                       rel="noopener noreferrer"
-//                       className="inline-flex items-center gap-2 text-purple-400 hover:text-pink-400 transition-colors duration-300 font-medium"
+//                       className="inline-flex items-center gap-2 text-purple-400 hover:text-blue-400 transition-colors duration-300 font-medium"
 //                     >
 //                       View Project
 //                       <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -226,7 +226,7 @@
 //                   </div>
 
 //                   {/* Glow effect on hover */}
-//                   <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+//                   <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
 //                 </div>
 //               </SwiperSlide>
 //             ))}
@@ -240,7 +240,7 @@
 //                 onClick={() => swiperRef && swiperRef.slideTo(index * slidesPerView)}
 //                 className={`h-2 rounded-full transition-all duration-300 ${
 //                   Math.floor(activeIndex / slidesPerView) === index 
-//                     ? "w-8 bg-gradient-to-r from-purple-500 to-pink-500" 
+//                     ? "w-8 bg-gradient-to-r from-purple-500 to-blue-500" 
 //                     : "w-2 bg-gray-600 hover:bg-gray-500"
 //                 }`}
 //               ></button>
@@ -342,13 +342,13 @@ const Portfolio = () => {
       <div className="relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden">
         {/* Background effects */}
         <div className="absolute top-0 right-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-        <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+        <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
         {/* Loader Content */}
         <div className="relative z-10 flex flex-col items-center gap-8">
           {/* Animated Icon */}
           <div className="relative">
-            <div className="w-24 h-24 border-4 border-transparent border-t-purple-500 border-r-pink-500 rounded-full animate-spin"></div>
+            <div className="w-24 h-24 border-4 border-transparent border-t-purple-500 border-r-blue-500 rounded-full animate-spin"></div>
             <div className="absolute inset-0 flex items-center justify-center">
               <svg className="w-12 h-12 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -365,7 +365,7 @@ const Portfolio = () => {
           {/* Progress Bar */}
           <div className="w-64 bg-gray-800 rounded-full h-2 overflow-hidden">
             <div 
-              className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-300 rounded-full"
+              className="h-full bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 rounded-full"
               style={{ width: `${loadingPercentage}%` }}
             ></div>
           </div>
@@ -374,7 +374,7 @@ const Portfolio = () => {
           {/* Loading Dots */}
           <div className="flex gap-2">
             <div className="w-2 h-2 bg-purple-500 rounded-full animate-bounce"></div>
-            <div className="w-2 h-2 bg-pink-500 rounded-full animate-bounce animation-delay-200"></div>
+            <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce animation-delay-200"></div>
             <div className="w-2 h-2 bg-purple-500 rounded-full animate-bounce animation-delay-400"></div>
           </div>
         </div>
@@ -386,7 +386,7 @@ const Portfolio = () => {
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden">
       {/* Background effects */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
       <div className='relative z-10 w-full max-w-7xl mx-auto'>
         {/* Header */}
@@ -402,7 +402,7 @@ const Portfolio = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Portfolio</span>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Portfolio</span>
           </h2>
           <p 
             className='text-gray-400 text-lg max-w-2xl'
@@ -457,7 +457,7 @@ const Portfolio = () => {
 
                   {/* Content */}
                   <div className="relative p-6 bg-gradient-to-br from-gray-900 to-gray-800">
-                    <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-3">
+                    <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 mb-3">
                       {project.title}
                     </h3>
                     <p className="text-gray-400 text-sm mb-4 line-clamp-3">
@@ -469,7 +469,7 @@ const Portfolio = () => {
                       href={project.link} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-purple-400 hover:text-pink-400 transition-colors duration-300 font-medium"
+                      className="inline-flex items-center gap-2 text-purple-400 hover:text-blue-400 transition-colors duration-300 font-medium"
                     >
                       View Project
                       <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -479,7 +479,7 @@ const Portfolio = () => {
                   </div>
 
                   {/* Glow effect on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
                 </div>
               </SwiperSlide>
             ))}
@@ -493,7 +493,7 @@ const Portfolio = () => {
                 onClick={() => swiperRef && swiperRef.slideTo(index * slidesPerView)}
                 className={`h-2 rounded-full transition-all duration-300 ${
                   Math.floor(activeIndex / slidesPerView) === index 
-                    ? "w-8 bg-gradient-to-r from-purple-500 to-pink-500" 
+                    ? "w-8 bg-gradient-to-r from-purple-500 to-blue-500" 
                     : "w-2 bg-gray-600 hover:bg-gray-500"
                 }`}
               ></button>

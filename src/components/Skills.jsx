@@ -55,19 +55,19 @@
 
 //   const getCategoryColor = (category) => {
 //     const colors = {
-//       frontend: 'from-purple-600 to-pink-600',
+//       frontend: 'from-purple-600 to-blue-600',
 //       backend: 'from-blue-600 to-cyan-600',
 //       language: 'from-green-600 to-emerald-600',
 //       database: 'from-orange-600 to-red-600',
 //     };
-//     return colors[category] || 'from-purple-600 to-pink-600';
+//     return colors[category] || 'from-purple-600 to-blue-600';
 //   };
 
 //   return (
 //     <div className='relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden'>
 //       {/* Background effects */}
 //       <div className="absolute top-20 left-0 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-//       <div className="absolute bottom-20 right-0 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+//       <div className="absolute bottom-20 right-0 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
 //       <div className='relative z-10 w-full max-w-7xl mx-auto'>
 //         {/* Header */}
@@ -76,7 +76,7 @@
 //             What I bring to the table
 //           </span>
 //           <h2 className='text-4xl md:text-6xl text-white font-bold mb-4'>
-//             My <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Skills</span>
+//             My <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Skills</span>
 //           </h2>
 //           <p className='text-gray-400 text-lg max-w-2xl'>
 //             See some of my technical expertise and capabilities
@@ -101,7 +101,7 @@
               
 //               {/* Content */}
 //               <div className='relative flex flex-col items-center justify-center text-center min-h-[80px]'>
-//                 <span className='text-white font-semibold text-sm md:text-base group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-pink-400 transition-all duration-300'>
+//                 <span className='text-white font-semibold text-sm md:text-base group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-blue-400 transition-all duration-300'>
 //                   {skill.name}
 //                 </span>
                 
@@ -122,10 +122,10 @@
 //           <p className='text-gray-400 mb-6'>Interested in working together?</p>
 //           <button 
 //             onClick={() => document.getElementById('Portfolio').scrollIntoView({ behavior: 'smooth' })}
-//             className='group relative overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
+//             className='group relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
 //           >
 //             <span className="relative z-10">View My Work</span>
-//             <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+//             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 //           </button>
 //         </div>
 //       </div>
@@ -162,19 +162,19 @@ const Skills = () => {
 
   const getCategoryColor = (category) => {
     const colors = {
-      frontend: 'from-purple-600 to-pink-600',
+      frontend: 'from-purple-600 to-blue-600',
       backend: 'from-blue-600 to-cyan-600',
       language: 'from-green-600 to-emerald-600',
       database: 'from-orange-600 to-red-600',
     };
-    return colors[category] || 'from-purple-600 to-pink-600';
+    return colors[category] || 'from-purple-600 to-blue-600';
   };
 
   return (
     <div className='relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden'>
       {/* Background effects */}
       <div className="absolute top-20 left-0 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-      <div className="absolute bottom-20 right-0 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+      <div className="absolute bottom-20 right-0 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
       <div className='relative z-10 w-full max-w-7xl mx-auto'>
         {/* Header */}
@@ -190,7 +190,7 @@ const Skills = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            My <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Skills</span>
+            My <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Skills</span>
           </h2>
           <p 
             className='text-gray-400 text-lg max-w-2xl'
@@ -221,7 +221,7 @@ const Skills = () => {
               
               {/* Content */}
               <div className='relative flex flex-col items-center justify-center text-center min-h-[80px]'>
-                <span className='text-white font-semibold text-sm md:text-base group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-pink-400 transition-all duration-300'>
+                <span className='text-white font-semibold text-sm md:text-base group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-blue-400 transition-all duration-300'>
                   {skill.name}
                 </span>
                 
@@ -242,10 +242,10 @@ const Skills = () => {
           <p className='text-gray-400 mb-6'>Interested in working together?</p>
           <button 
             onClick={() => document.getElementById('Portfolio').scrollIntoView({ behavior: 'smooth' })}
-            className='group relative overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
+            className='group relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
           >
             <span className="relative z-10">View My Work</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
         </div>
       </div>

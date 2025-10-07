@@ -63,7 +63,7 @@
 //     <div className='relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden'>
 //       {/* Background effects */}
 //       <div className="absolute top-0 right-0 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-//       <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+//       <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
 //       <div className='relative z-10 w-full max-w-7xl mx-auto'>
 //         {/* Header */}
@@ -72,7 +72,7 @@
 //             Get to know me
 //           </span>
 //           <h2 className='text-4xl md:text-6xl text-white font-bold mb-4'>
-//             About <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Me</span>
+//             About <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Me</span>
 //           </h2>
 //           <p className='text-gray-400 text-lg max-w-2xl'>
 //             I can deliver results that exceed your expectations
@@ -83,7 +83,7 @@
 //         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16'>
 //           {/* Left - Image placeholder */}
 //           <div className='relative'>
-//             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-2xl opacity-20"></div>
+//             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur-2xl opacity-20"></div>
 //             <div className='relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 border border-purple-500/20'>
 //               <div className='text-6xl text-purple-400 mb-4'>👨‍💻</div>
 //               <h3 className='text-2xl text-white font-bold mb-4'>Full-Stack Developer</h3>
@@ -97,7 +97,7 @@
 //           <div className='flex flex-col gap-6'>
 //             <p className='text-lg text-gray-300 leading-relaxed'>
 //               I am a <span className='text-purple-400 font-semibold'>motivated full-stack software developer</span> with hands-on experience from my internship, proficient in{' '}
-//               <span className='text-pink-400'>Node.js, JavaScript, MongoDB, PostgreSQL, React.js, TypeScript,</span> and{' '}
+//               <span className='text-blue-400'>Node.js, JavaScript, MongoDB, PostgreSQL, React.js, TypeScript,</span> and{' '}
 //               <span className='text-purple-400'>Tailwind CSS</span>.
 //             </p>
             
@@ -107,7 +107,7 @@
 
 //             <button 
 //               onClick={handleDownload}
-//               className='group relative overflow-hidden self-start bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
+//               className='group relative overflow-hidden self-start bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
 //             >
 //               <span className="relative z-10 flex items-center gap-2">
 //                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -115,7 +115,7 @@
 //                 </svg>
 //                 Download CV
 //               </span>
-//               <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+//               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 //             </button>
 //           </div>
 //         </div>
@@ -127,7 +127,7 @@
 //               key={index}
 //               className='group relative overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 border border-purple-500/20 hover:border-purple-500/50 transition-all duration-300 hover:scale-105'
 //             >
-//               <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-pink-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+//               <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 //               <div className='relative flex items-center gap-4'>
 //                 <div className='text-4xl text-purple-400 group-hover:scale-110 transition-transform duration-300'>
 //                   {stat.icon}
@@ -192,14 +192,14 @@ const About = () => {
       <div className='relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden'>
         {/* Background effects */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
         {/* Loader Content */}
         <div className="relative z-10 flex flex-col items-center gap-8">
           {/* Profile Icon with Pulse */}
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur-2xl opacity-50 animate-pulse"></div>
-            <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center shadow-2xl shadow-purple-500/50">
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full blur-2xl opacity-50 animate-pulse"></div>
+            <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center shadow-2xl shadow-purple-500/50">
               <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
@@ -226,7 +226,7 @@ const About = () => {
           {/* Loading Dots */}
           <div className="flex gap-2 mt-4">
             <div className="w-2 h-2 bg-purple-500 rounded-full animate-bounce"></div>
-            <div className="w-2 h-2 bg-pink-500 rounded-full animate-bounce animation-delay-200"></div>
+            <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce animation-delay-200"></div>
             <div className="w-2 h-2 bg-purple-500 rounded-full animate-bounce animation-delay-400"></div>
           </div>
         </div>
@@ -238,7 +238,7 @@ const About = () => {
     <div className='relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden'>
       {/* Background effects */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
       <div className='relative z-10 w-full max-w-7xl mx-auto'>
         {/* Header */}
@@ -254,7 +254,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            About <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Me</span>
+            About <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Me</span>
           </h2>
           <p 
             className='text-gray-400 text-lg max-w-2xl'
@@ -269,7 +269,7 @@ const About = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16'>
           {/* Left - Image placeholder */}
           <div className='relative' data-aos="fade-right" data-aos-delay="300">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-2xl opacity-20"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur-2xl opacity-20"></div>
             <div className='relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 border border-purple-500/20'>
               <div className='text-6xl text-purple-400 mb-4'>👨‍💻</div>
               <h3 className='text-2xl text-white font-bold mb-4'>Full-Stack Developer</h3>
@@ -283,7 +283,7 @@ const About = () => {
           <div className='flex flex-col gap-6' data-aos="fade-left" data-aos-delay="400">
             <p className='text-lg text-gray-300 leading-relaxed'>
               I am a <span className='text-purple-400 font-semibold'>motivated full-stack software developer</span> with hands-on experience from my internship, proficient in{' '}
-              <span className='text-pink-400'>Node.js, JavaScript, MongoDB, PostgreSQL, React.js, TypeScript,</span> and{' '}
+              <span className='text-blue-400'>Node.js, JavaScript, MongoDB, PostgreSQL, React.js, TypeScript,</span> and{' '}
               <span className='text-purple-400'>Tailwind CSS</span>.
             </p>
             
@@ -293,7 +293,7 @@ const About = () => {
 
             <button 
               onClick={handleDownload}
-              className='group relative overflow-hidden self-start bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
+              className='group relative overflow-hidden self-start bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
             >
               <span className="relative z-10 flex items-center gap-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -301,7 +301,7 @@ const About = () => {
                 </svg>
                 Download CV
               </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
           </div>
         </div>
@@ -315,7 +315,7 @@ const About = () => {
               data-aos="flip-up"
               data-aos-delay={600 + (index * 100)}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-pink-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className='relative flex items-center gap-4'>
                 <div className='text-4xl text-purple-400 group-hover:scale-110 transition-transform duration-300'>
                   {stat.icon}

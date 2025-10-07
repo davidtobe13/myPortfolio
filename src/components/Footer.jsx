@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Column 1 - About */}
           <div>
-            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mb-4">
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 mb-4">
               David.dev
             </h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -77,7 +77,7 @@ const Footer = () => {
             </p>
             <button 
               onClick={scrollToTop}
-              className="group flex items-center gap-2 text-purple-400 hover:text-pink-400 transition-colors duration-300"
+              className="group flex items-center gap-2 text-purple-400 hover:text-blue-400 transition-colors duration-300"
             >
               <FaArrowUp className="group-hover:-translate-y-1 transition-transform duration-300" />
               Back to Top
@@ -133,46 +133,46 @@ const Footer = () => {
                 href="https://wa.me/2347081101605" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-110"
+                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 hover:scale-110"
               >
                 <FaWhatsapp className="text-xl text-gray-400 group-hover:text-white transition-colors duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
 
               <a 
                 href="tel:+2347075273063" 
-                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-110"
+                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 hover:scale-110"
               >
                 <FaPhone className="text-xl text-gray-400 group-hover:text-white transition-colors duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
 
               <a 
                 href="mailto:davidtobe1999@gmail.com" 
-                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-110"
+                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 hover:scale-110"
               >
                 <FaEnvelope className="text-xl text-gray-400 group-hover:text-white transition-colors duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
 
               <a 
                 href="https://linkedin.com/in/david-ugwuegbulam-6a8722253/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-110"
+                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 hover:scale-110"
               >
                 <FaLinkedin className="text-xl text-gray-400 group-hover:text-white transition-colors duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
 
               <a 
                 href="https://github.com/davidtobe13" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-110"
+                className="group relative w-12 h-12 flex items-center justify-center rounded-lg bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 hover:scale-110"
               >
                 <FaGithub className="text-xl text-gray-400 group-hover:text-white transition-colors duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
             </div>
           </div>

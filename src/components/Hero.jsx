@@ -40,7 +40,7 @@ const Hero = () => {
       {/* Animated gradient background */}
       <div className="absolute inset-0">
         <div className="absolute top-20 -left-20 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
-        <div className="absolute top-40 -right-20 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-40 -right-20 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
         <div className="absolute -bottom-20 left-1/2 w-96 h-96 bg-indigo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
 
@@ -55,14 +55,14 @@ const Hero = () => {
           
           <h1 className='text-5xl md:text-7xl lg:text-8xl text-white font-bold leading-tight'>
             Hello, I'm{' '}
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600 animate-gradient'>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 animate-gradient'>
               David!
             </span>
           </h1>
           
           <p className='text-xl md:text-2xl text-gray-300 font-light'>
             I'm a <span className='text-purple-400 font-semibold'>full-stack engineer</span> and{' '}
-            <span className='text-pink-400 font-semibold'>Web Developer</span>.
+            <span className='text-blue-400 font-semibold'>Web Developer</span>.
           </p>
 
           <p className='text-gray-400 text-lg max-w-xl'>
@@ -72,10 +72,10 @@ const Hero = () => {
           <div className="flex gap-4 mt-4">
             <button 
               onClick={scrollToPortfolio}
-              className='group relative overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
+              className='group relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
             >
               <span className="relative z-10">View Portfolio</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
 
             <button 
@@ -91,7 +91,7 @@ const Hero = () => {
         <div className='w-full md:w-1/2 flex justify-center items-center'>
           <div className="relative w-full max-w-lg">
             {/* Glowing hexagon effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl blur-3xl opacity-30 animate-pulse"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-3xl blur-3xl opacity-30 animate-pulse"></div>
             <div 
               className='relative w-full h-96 md:h-[500px] rounded-3xl bg-cover bg-center bg-no-repeat shadow-2xl shadow-purple-500/20 border border-purple-500/20'   
               style={{ backgroundImage: "url('/hero.png')" }}

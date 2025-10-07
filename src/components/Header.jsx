@@ -198,7 +198,7 @@
 //       }`}
 //     >
 //       {/* Logo */}
-//       <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-2xl font-bold">
+//       <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 text-2xl font-bold">
 //         David.dev
 //       </h1>
 
@@ -214,7 +214,7 @@
 //           >
 //             {item}
 //             {activeSection === item && (
-//               <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-400 to-pink-600"></span>
+//               <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-400 to-blue-600"></span>
 //             )}
 //           </button>
 //         ))}
@@ -222,10 +222,10 @@
 //           href={whatsappUrl}
 //           target="_blank"
 //           rel="noopener noreferrer"
-//           className="ml-4 relative group overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105"
+//           className="ml-4 relative group overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105"
 //         >
 //           <span className="relative z-10">Hire Me</span>
-//           <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+//           <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 //         </a>
 //       </div>
 
@@ -267,7 +267,7 @@
 //             href={whatsappUrl}
 //             target="_blank"
 //             rel="noopener noreferrer"
-//             className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50"
+//             className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50"
 //           >
 //             Hire Me
 //           </a>
@@ -351,7 +351,7 @@ const Header = () => {
         }`}
       >
         {/* Logo */}
-        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-2xl font-bold">
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 text-2xl font-bold">
           David.dev
         </h1>
 
@@ -367,7 +367,7 @@ const Header = () => {
             >
               {item}
               {activeSection === item && (
-                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-400 to-pink-600"></span>
+                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-400 to-blue-600"></span>
               )}
             </button>
           ))}
@@ -375,10 +375,10 @@ const Header = () => {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-4 relative group overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105"
+            className="ml-4 relative group overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105"
           >
             <span className="relative z-10">Hire Me</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </a>
         </div>
       </div>
@@ -394,7 +394,7 @@ const Header = () => {
           {/* Top Bar with Logo and Burger */}
           <div className="flex items-center justify-between px-4 py-3">
             {/* Logo - Same as Desktop */}
-            <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-xl font-bold">
+            <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 text-xl font-bold">
               David.dev
             </h1>
 
@@ -435,7 +435,7 @@ const Header = () => {
                 >
                   <span className="text-lg font-medium">{item}</span>
                   {activeSection === item && (
-                    <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-gradient-to-b from-purple-400 to-pink-400 rounded-r-full"></div>
+                    <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-gradient-to-b from-purple-400 to-blue-400 rounded-r-full"></div>
                   )}
                 </button>
               ))}
@@ -445,7 +445,7 @@ const Header = () => {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative mt-4 w-full overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-xl font-semibold text-center transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 flex items-center justify-center gap-2"
+                className="group relative mt-4 w-full overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold text-center transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 flex items-center justify-center gap-2"
                 style={{
                   animation: isOpen ? 'slideDown 0.4s ease-out 0.4s both' : 'none'
                 }}
@@ -459,7 +459,7 @@ const Header = () => {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-                <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
             </div>
 
@@ -479,7 +479,7 @@ const Header = () => {
           {/* Animated background blobs (visible when open) */}
           {isOpen && (
             <>
-              <div className="absolute top-20 left-4 w-32 h-32 bg-pink-500 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-blob pointer-events-none"></div>
+              <div className="absolute top-20 left-4 w-32 h-32 bg-blue-500 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-blob pointer-events-none"></div>
               <div className="absolute bottom-20 right-4 w-32 h-32 bg-purple-500 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-blob animation-delay-2000 pointer-events-none"></div>
             </>
           )}

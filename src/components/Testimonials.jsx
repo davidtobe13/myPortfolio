@@ -35,7 +35,7 @@
 //     <div className='relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden'>
 //       {/* Background effects */}
 //       <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-//       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+//       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
 //       <div className='relative z-10 w-full max-w-6xl mx-auto'>
 //         {/* Header */}
@@ -44,7 +44,7 @@
 //             Testimonials
 //           </span>
 //           <h2 className='text-4xl md:text-6xl text-white font-bold mb-4'>
-//             What <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Clients Say</span>
+//             What <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Clients Say</span>
 //           </h2>
 //           <p className='text-gray-400 text-lg max-w-2xl'>
 //             Take it from our users
@@ -63,7 +63,7 @@
 //               <div className='absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-800'></div>
               
 //               {/* Glow effect on hover */}
-//               <div className='absolute inset-0 bg-gradient-to-r from-purple-600/10 to-pink-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+//               <div className='absolute inset-0 bg-gradient-to-r from-purple-600/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
 
 //               {/* Content */}
 //               <div className='relative p-8 flex flex-col'>
@@ -116,10 +116,10 @@
 //             href={`https://wa.me/2347081101605?text=${encodeURIComponent("Hello David, I'm interested in hiring you for a project!")}`}
 //             target="_blank"
 //             rel="noopener noreferrer"
-//             className='inline-block group relative overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
+//             className='inline-block group relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
 //           >
 //             <span className="relative z-10">Get in Touch</span>
-//             <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+//             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 //           </a>
 //         </div>
 //       </div>
@@ -170,7 +170,7 @@ const Testimonials = () => {
     <div className='relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-black overflow-hidden'>
       {/* Background effects */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
       <div className='relative z-10 w-full max-w-6xl mx-auto'>
         {/* Header */}
@@ -186,7 +186,7 @@ const Testimonials = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            What <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Clients Say</span>
+            What <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600'>Clients Say</span>
           </h2>
           <p 
             className='text-gray-400 text-lg max-w-2xl'
@@ -211,7 +211,7 @@ const Testimonials = () => {
               <div className='absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-800'></div>
               
               {/* Glow effect on hover */}
-              <div className='absolute inset-0 bg-gradient-to-r from-purple-600/10 to-pink-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+              <div className='absolute inset-0 bg-gradient-to-r from-purple-600/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
 
               {/* Content */}
               <div className='relative p-8 flex flex-col'>
@@ -261,10 +261,10 @@ const Testimonials = () => {
             href={`https://wa.me/2347081101605?text=${encodeURIComponent("Hello David, I'm interested in hiring you for a project!")}`}
             target="_blank"
             rel="noopener noreferrer"
-            className='inline-block group relative overflow-hidden bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
+            className='inline-block group relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105'
           >
             <span className="relative z-10">Get in Touch</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </a>
         </div>
       </div>
