@@ -385,20 +385,17 @@ const Header = () => {
 
       {/* Mobile Header Container */}
       <div className="md:hidden fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-md">
-        {/* Main Container with Dropdown */}
-        <div 
-          className={`relative bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl shadow-purple-500/20 border border-white/10 overflow-hidden transition-all duration-500 ${
-            isOpen ? 'rounded-4xl' : 'rounded-full'
-          }`}
+<div 
+          className="relative bg-white/5 backdrop-blur-xl shadow-2xl shadow-purple-500/20 border border-white/10 overflow-hidden"
+          style={{
+            borderRadius: isOpen ? '1.5rem' : '9999px',
+            transition: isOpen ? 'none' : 'border-radius 0s 0.5s'
+          }}
         >
-          {/* Top Bar with Logo and Burger */}
           <div className="flex items-center justify-between px-4 py-3">
-            {/* Logo - Same as Desktop */}
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 text-xl font-bold">
               David.dev
             </h1>
-
-            {/* Burger Menu Circle */}
             <button 
               onClick={() => setIsOpen(!isOpen)} 
               className="w-10 h-10 rounded-full flex items-center justify-center  transition-all duration-300 hover:scale-110 active:scale-95"
@@ -408,17 +405,12 @@ const Header = () => {
               </span>
             </button>
           </div>
-
-          {/* Dropdown Content */}
           <div 
             className={`transition-all duration-500 ease-in-out ${
               isOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
             }`}
           >
-            {/* Separator Line */}
             <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mx-6"></div>
-
-            {/* Menu Items */}
             <div className="px-6 py-6 space-y-2">
               {sections.map((item, index) => (
                 <button
@@ -440,7 +432,6 @@ const Header = () => {
                 </button>
               ))}
 
-              {/* Hire Me Button */}
               <a 
                 href={whatsappUrl}
                 target="_blank"
@@ -463,7 +454,6 @@ const Header = () => {
               </a>
             </div>
 
-            {/* Bottom Tagline */}
             <div 
               className="px-6 pb-6 text-center"
               style={{
@@ -476,7 +466,6 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Animated background blobs (visible when open) */}
           {isOpen && (
             <>
               <div className="absolute top-20 left-4 w-32 h-32 bg-blue-500 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-blob pointer-events-none"></div>
