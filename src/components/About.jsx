@@ -183,7 +183,7 @@ const About = () => {
   const stats = [
     { icon: <FaCode />, label: 'Projects Completed', value: '15+' },
     { icon: <FaLaptopCode />, label: 'Technologies', value: '12+' },
-    { icon: <FaRocket />, label: 'Experience', value: '2+ Years' },
+    { icon: <FaRocket />, label: 'Experience', value: '3+ Years' },
   ];
 
   // Loading State
