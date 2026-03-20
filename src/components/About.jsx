@@ -218,7 +218,7 @@ const About = () => {
               <div 
                 key={item}
                 className="w-20 h-20 rounded-lg bg-gradient-to-br from-gray-800 to-gray-900 border border-purple-500/20 animate-pulse"
-                style={{ animationDelay: `${item * 0.2}s` }}
+                style={{ animationDelay: `${item * 0.1}s` }}
               ></div>
             ))}
           </div>
@@ -282,8 +282,8 @@ const About = () => {
           {/* Right - Description */}
           <div className='flex flex-col gap-6' data-aos="fade-left" data-aos-delay="400">
             <p className='text-lg text-gray-300 leading-relaxed'>
-              I am a <span className='text-purple-400 font-semibold'>motivated full-stack software developer</span> with hands-on experience from my internship, proficient in{' '}
-              <span className='text-blue-400'>Node.js, JavaScript, MongoDB, PostgreSQL, React.js, TypeScript,</span> and{' '}
+              I am a <span className='text-purple-400 font-semibold'>motivated full-stack software developer</span> with hands-on experience from my working on real life projects, proficient in{' '}
+              <span className='text-blue-400'>Node.js, JavaScript, MongoDB, PostgreSQL, Next.js, React native, React.js, TypeScript,</span> and{' '}
               <span className='text-purple-400'>Tailwind CSS</span>.
             </p>
             
