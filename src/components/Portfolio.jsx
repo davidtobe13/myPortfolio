@@ -10,7 +10,14 @@ const projects = [
   { id: 3, title: "Prime Edge", description: "Prime Edge is a partnership-driven real estate development company built on discipline, clarity, and long-term value creation. They specialise in structuring, developing, and delivering premium residential and commercial projects through joint ventures with landowners, investors, and institutional partners.", image: "/primeedge.png", link: "https://primeedgeco.com/", tech: ["NextJs", "Node.js", "MongoDB", "Rest APIs"] },
   { id: 4, title: "Wig'd By Dee", description: "At Wig'd By Dee, we believe that a great wig isn't just hair — it's an expression of who you are. Based in the heart of Lekki Phase 1, Lagos, we provide expert wig services that blend artistry with precision, tailored to bring out your most radiant self.", image: "/dee.png", link: "https://wigedbydee.vercel.app/", tech: ["ReactJs"] },
   { id: 5, title: "Lagos Diocese Youth", description: "This is a website designed for the Anglican Communion Diocese of Lagos youth. It is a work in progress and it has 2025 camp registration link that is still in progress.", image: "/anglican.jpg", link: "https://www.dioceseoflagosyouths.com/", tech: ["React", "Tailwind CSS"] },
-  { id: 6, title: "Furniro", description: "Funiro is more than just an online store for furnitures. They are passionate about bringing you handcrafted furniture and decor that are both functional and beautiful", image: "/furniro.jpg", link: "https://furniro-iota-eight.vercel.app/", tech: ["React", "E-commerce"] },
+{
+  id: 6,
+  title: "Abuja Cars Ltd",
+  description: "A premier luxury car dealership offering carefully selected vehicles and a personalized buying experience for every client.",
+  image: "/abuja.png",
+  link: "https://abuja-cars-ltd.vercel.app/",
+  tech: ["React", "Automotive"]
+},
   { id: 7, title: "Scupay", description: "A payment management solution for schools. Scupay is a payment solution designed to streamline payment management for educational institutions", image: "/scupay.jpg", link: "https://scupay-new.vercel.app/", tech: ["React", "Payment API"] },
   { id: 8, title: "Portfolio", description: "This is a simple yet modern and beautiful portfolio built for a cinematographer and photographer", image: "/esther.jpg", link: "https://estheramahero.netlify.app/", tech: ["React", "Framer Motion"] },
   { id: 9, title: "Geodex", description: "Geodex is a web application that connects brands to outdoor advertising through innovative tech, data scientists, marketers, and media experts.", image: "/geodex.jpg", link: "https://geodex.tech/", tech: ["React", "Maps API"] },
